@@ -2,7 +2,9 @@ import speech_recognition as sr
 import openai
 from gtts import gTTS
 import os
+import dotenv
 
+dotenv.load_dotenv('.env')
 
 openai.api_key = "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"
 
