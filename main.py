@@ -6,7 +6,7 @@ import dotenv
 
 dotenv.load_dotenv('.env')
 
-openai.api_key = "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"
+openai.api_key = os.environ['API_KEY'] 
 
 model_engine = "text-davinci-003"
 
